@@ -1,2 +1,2 @@
 ng build --configuration production
-ng deploy --base-href=/gamx/ --dir=dist/dreamx-app
+ng deploy --base-href=/gamx/
