@@ -1,2 +1,0 @@
-export default `html,body{margin:0;padding:0;overflow-x:hidden}app-root{display:flex;flex-direction:column;min-height:100vh}app-header{position:sticky;background-color:#222;top:0;z-index:1000;flex-shrink:0}.main-content{flex:1 1 auto;min-height:0;overflow-y:auto;overflow-x:hidden;background-color:#fafafa}app-footer{flex-shrink:0;background-color:#222;color:#fff;text-align:center;padding:15px}.cards-container{width:100%;max-width:1200px;margin:0 auto;box-sizing:border-box;padding:20px}.card{max-width:100%;box-sizing:border-box}
-`;
