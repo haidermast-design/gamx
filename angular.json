@@ -86,7 +86,7 @@
             "assets": [
               {
                 "glob": "**/*",
-                "input": "public"
+                "input": "public/*"
               }
             ],
             "styles": [
@@ -94,8 +94,14 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "912382d0-b26d-4a1f-b205-4a72d41a35e2"
   }
 }

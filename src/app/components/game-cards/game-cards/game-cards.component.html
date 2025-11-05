@@ -1,0 +1,21 @@
+<div class="cards-container">
+  <a 
+    *ngFor="let game of games" 
+    [href]="game.url"
+    class="card-link"
+  >
+    <div class="card">
+      <div class="image-wrapper">
+        <div class="spinner" *ngIf="game.loading"></div>
+        <img
+          [src]="game.image"
+          alt="{{ game.name }}"
+          loading="lazy"
+          (load)="onImageLoad(game)"
+          [class.loaded]="!game.loading"
+        />
+      </div>
+      <div class="card-title">{{ game.name }}</div>
+    </div>
+  </a>
+</div>
